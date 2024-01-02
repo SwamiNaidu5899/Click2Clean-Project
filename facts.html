@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click2Clean</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./Project-img/new-fav.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container-fluid
+        {
+            height: 150vh;
+        }
+        .about-us-main
+        {
+            height: 100vh;
+            width: 66%;
+            position: relative;
+            left: 17%;
+            top: 5vh;
+            /* background-color: blue;   */
+            display: flex;
+        }
+        .abt-col-1
+        {
+            height: 120vh;
+            width: 70%;
+            /* background-color: aqua; */
+        }
+        .abt-col-2
+        {
+            height: 90vh;
+            width: 30%;
+            margin-top: 3vh;
+            /* background-color: rgb(19, 74, 74); */
+        }
+
+        .abt-col-1 h3
+        {
+            color: #048242;
+            font-weight: bolder;
+            position: relative;
+            left: 70%;
+        }
+        .abt-col-1 p
+        {
+            text-align: left;
+        }
+        .about-us-img
+        {
+            height: 60vh;
+            position: -webkit-sticky;
+            position: sticky;
+            margin-top: 5vh;
+            margin-left: 10%;
+            top: 0;
+        }
+        .dropdown {
+             position: relative;
+             display: inline-block;
+        }
+
+        .dropdown-content {
+             display: none;
+             position: absolute;
+             background-color: #f9f9f9;
+             min-width: 160px;
+             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+             padding: 12px 16px;
+             z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+              display: block;
+              font-size: 18px;
+        }
+        .new-h6
+        {
+            border: 2px solid green;
+            padding: 15px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="nav">
+            <div class="col-logo">
+                <a href="index.html"><img class=    "logo" src="./click2clean-logo.png" alt=""></a>
+            </div>
+            <div class="col-navmenu">
+                <div class="row-navbar">
+                    <nav>
+                        <li><a href="about.html">About Us</a></li><span>|</span>
+                        <li><a href="bookapnmtn.html">Book Appointment</a></li><span>|</span>
+                        <li><a href="oursrvc.html">Our Services</a></li><span>|</span>
+                        <li><a href="facts.html">Facts & FAQ's</a></li><span>|</span>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </nav>
+                </div>
+                <div class="row-social">
+                   <div class="select">
+                     <select name="" id="">
+                         <option value=""></option>
+                         <option value="">Mumbai</option>
+                         <option value="">Visakhapatanam</option>
+                         <option value="">Visakhapatanam-neww</option>
+                         <option value="">Hyd</option>
+                         <option value="">Sec</option>
+                         <option value="">Chennai</option>
+                     </select>
+                    </div>
+                     <div class="social-icons">
+                        <div class="icon-box">
+                            <img class="icon-img" src="./facebook.png" alt="">
+                        </div>
+                        <div class="icon-box">
+                            <img class="icon-img" src="./twitter.png" alt="">
+                        </div>
+                        <div  class="icon-box">
+                            <img class="icon-img" src="./instagram.png" alt="">
+                        </div>
+                        <div class="icon-box">
+                            <img class="icon-img" src="./pinterest.png" alt="">
+                        </div>
+                     </div>
+
+                   
+                </div>
+            </div>
+        </div>
+
+      
+
+
+        <div class="about-us-main">
+            <div class="abt-col-1">
+                <h3>FAQ's</h3>
+             <div class="dropdown">
+                <h6 class="new-h6">What type of services can I find on the platform? +</h6>
+                <p class="dropdown-content">We have a host of services ranging from Deep Cleaning, Pest Control,
+                     Sanitization, Drainage clearing, Sewage tank cleaning to Water tank cleaning.</p>
+                </div>
+                <div class="dropdown">
+                    <h6 class="new-h6">What are your office working hours? +</h6>
+                    <p class="dropdown-content">Our Customer service team can be reached from 9 AM to 9 PM, Sun-Sat. Our Office timings are from 10 AM to 7 PM, Mon-Sat.</p>
+                    </div>
+                    <div class="dropdown">
+                    <h6 class="new-h6">Do you work on Public and Bank holidays? +</h6>
+                    <p class="dropdown-content">Our services are offered on Public and Bank Holidays and the Customer Care department is also operational. However, our offices are not operational during Public and Bank holidays.</p>
+                    </div>
+                    <div class="dropdown">
+                        <h6 class="new-h6">Who will come to my home? +</h6>
+                        <p class="dropdown-content">Our chosen and verified partners will be assigned to complete your service request. We have a thorough process of vetting our partners.</p>
+                        </div><br>
+                        <div class="dropdown">
+                            <h6 class="new-h6">How do I make a booking? +</h6>
+                            <p class="dropdown-content">Simply download our app from the Apple App Store or Google Play store to book our services. You may also log on to www.Click2Clean.in for booking our services.</p>
+                            </div>
+                            <div class="dropdown">
+                                <h6 class="new-h6">How does Click2Clean ensure the quality of Its services? +</h6>
+                                <p class="dropdown-content">We impart training to our partners as per industry standards. We ensure our partners possess good experience and expertise. We also make sure that the equipment used by them is of the best quality and maintained with the highest possible standards.</p>
+                                </div>
+                                <div class="dropdown">
+                                    <h6 class="new-h6">How do I contact Click2Clean? +</h6>
+                                    <p class="dropdown-content">You can reach us via email at support@click2clean.in Through WhatsApp or Call us on - +91- 8515060606</p>
+                                    </div>
+                                    <div class="dropdown">
+                                        <h6 class="new-h6">What happens if I am dissatisfied with the service? +</h6>
+                                        <p class="dropdown-content">Please contact our customer service team via email/Phone/WhatsApp and let us know why you are dissatisfied. We will help you resolve the issue and ensure that you are served as per the company standards and satisfied with the service.</p>
+                                        </div>
+                                        <div class="dropdown">
+                                            <h6 class="new-h6">How do I pay for the service? +</h6>
+                                            <p class="dropdown-content">You can choose to pay for the service while booking the service or after the service is completed.</p>
+                                            </div>
+            </div>
+            <div class="abt-col-2">
+                <img class="about-us-img"  src="./faq's.svg" alt="">
+            </div>
+        </div>
+        
+
+
+
+        <div class="footer" style="position: relative; top: 0vh;">
+            <div class="footer-col-1">
+                <h5 id="#Footer-head">
+                    Antony Waste Handling Cell Limited
+                </h5>
+                <h5>CIN: L90001MH2001PLC130485</h5>
+                <h6>
+                    Reg. and Corporate Office: 1402-1404, 14th Floor,
+                    Dev Corpora Building, Opp. Cadbury Company,
+                    Eastern Express Highway, Thane (West) – 400 601
+                </h6>
+                <h6><span><img src="./phone-call.png" height="30" alt=""></span>+91-9876543210</h6>
+            </div>
+            <div class="footer-col-2">
+                <a href="#">Privacy Policy</a><br>
+                <a href="#">Cancellation Policy</a><br>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="footer-col-3">
+                <img src="./Google_Play img.svg" height="45vh" style="position: relative; top: 13vh; left: 5vh;" alt="">
+                <img src="./app store.svg" height="45vh"  style="position: relative; top: 13vh; left: 7vh;" alt="">
+            </div>
+            <div class="footer-col-4">
+                <div class="social-icon-footer">
+                    <div class="foot-icon">
+                        <img class="foot-img-new" src="./facebook.png" alt="">
+                    </div>
+                    <div class="foot-icon">
+                        <img class="foot-img-new" src="./twitter.png" alt="">
+                    </div>
+                    <div class="foot-icon">
+                        <img class="foot-img-new" src="./instagram.png" alt="">
+                    </div>
+                    <div class="foot-icon">
+                        <img class="foot-img-new" src="./pinterest.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>

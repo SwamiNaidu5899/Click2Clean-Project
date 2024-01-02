@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click2Clean</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./new-fav.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container-fluid
+        {
+            height: 170vh;
+        }
+        .contact-us
+        {
+            height: 163vh;
+            width: 100%;
+            /* left: 17%; */
+            /* background-color: aqua; */
+            position: relative;
+            top: 5vh;
+        }
+        .main-heading
+        {
+            height: 10vh;
+        }
+        .main-heading h4
+        {
+            color: green;
+            text-align: center;
+            font-weight: bolder;
+        }
+        .inp-details
+        {
+            height: 65vh;
+            width: 74%;
+            position: relative;
+            left: 12%;
+            margin-top: 5vh;
+            display: flex;
+            justify-content: space-around;
+        }
+        .inp-1,.inp-2
+        {
+            height: 63vh;
+            width: 48%;
+            background-color: #fff;
+            box-shadow: 2px 2px 2px 2px rgb(221, 214, 214);
+            margin-top: 2vh;
+            border-radius: 12px;
+
+        }
+        input
+       {
+        border-radius: 20px;
+        border: 1px solid rgb(199, 199, 199);
+        padding: 5px;
+        resize: none;
+        width: 100%;
+        margin-bottom: 3vh;
+       }
+       ::placeholder
+       {
+        font-size: 17px;
+        
+       }
+       .inp::placeholder
+       {
+        position: relative;
+        top: -2vh;
+       }
+       h6
+       {
+        font-size: 24px;
+        font-weight: bolder;
+       }
+       .inp-1 p,.inp-2 p
+       {
+        font-size: 15px;
+        text-align: left;
+       }
+       .btn-1
+       {
+        background-color: #4caf50;
+        border-radius: 20px;
+        position: relative; 
+        font-size: 17px;
+        left: 82%;
+        border: none;
+        padding: 10px;
+        color: white;
+       }
+       .btn-1:hover,.btn-2:hover
+       {
+        background-color: #fff;
+        color: black;
+        border: 1px solid black;
+       }
+       .position-fixed-details
+       {
+        height: 44vh;
+        width: 15%;
+        background-color: rgba(0, 0, 0, 0.721);
+        position: relative;
+        top: -35vh;
+        left: 80%;
+        border-radius: 12px;
+       }
+       .position-fixed-details p
+       {
+        color: white;
+        position: relative;
+        top: -2.5vh;
+        left: -7%;
+        font-size: 17px;
+       }
+       .position-fixed-details img
+       {
+        position: relative;
+        left: 8%;
+        top: 1vh;
+       }
+      iframe
+      {
+        position: relative;
+        top: 15vh;
+      }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="nav">
+            <div class="col-logo">
+                <a href="index.html"><img class=    "logo" src="./click2clean-logo.png" alt=""></a>
+            </div>
+            <div class="col-navmenu">
+                <div class="row-navbar">
+                    <nav>
+                        <li><a href="about.html">About Us</a></li><span>|</span>
+                        <li><a href="bookapnmtn.html">Book Appointment</a></li><span>|</span>
+                        <li><a href="oursrvc.html">Our Services</a></li><span>|</span>
+                        <li><a href="facts.html">Facts & FAQ's</a></li><span>|</span>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </nav>
+                </div>
+                <div class="row-social">
+                   <div class="select">
+                     <select name="" id="">
+                         <option value=""></option>
+                         <option value="">Mumbai</option>
+                         <option value="">Visakhapatanam</option>
+                         <option value="">Visakhapatanam-neww</option>
+                         <option value="">Hyd</option>
+                         <option value="">Sec</option>
+                         <option value="">Chennai</option>
+                     </select>
+                    </div>
+                     <div class="social-icons">
+                        <div class="icon-box">
+                            <img class="icon-img" src="./facebook.png" alt="">
+                        </div>
+                        <div class="icon-box">
+                            <img class="icon-img" src="./twitter.png" alt="">
+                        </div>
+                        <div  class="icon-box">
+                            <img class="icon-img" src="./instagram.png" alt="">
+                        </div>
+                        <div class="icon-box">
+                            <img class="icon-img" src="./pinterest.png" alt="">
+                        </div>
+                     </div>
+
+                   
+                </div>
+            </div>
+        </div>
+
+      
+
+        <div class="contact-us">
+            <div class="main-heading">
+                <h4>JOIN US</h4>
+                <p>Join us as a Partner or Join Our Partners as an employee</p>
+            </div>
+            <div class="inp-details">
+                <div class="inp-1">
+                    <h6>BECOME OUR PARTNER</h5>
+                    <p>Please fill up the below form to join us as a Service Partner. 
+                        We will get back to you to complete the remaining formalities.</p>
+                        <input type="text" name="" id="" placeholder="Name"><br>
+                        <input type="text" name="" id="" placeholder="Phone"><br>
+                        <input type="email" name="" id="" placeholder="Email"><br>
+                        <input class="inp" style="height: 10vh;" type="text" name="" id="" placeholder="Message"><br>
+                        <button class="btn-1">Submit</button>
+                </div>
+                <div class="inp-2">
+                    <h6>JOIN OUR PARTNERS AS AN EMPLOYEE</h5>
+                        <p>We look forward to generating employment with our initiative to make people’s lives better.
+                             </p>
+                            <input type="text" name="" id="" placeholder="Name"><br>
+                            <input type="text" name="" id="" placeholder="Phone"><br>
+                            <input type="email" name="" id="" placeholder="Email"><br>
+                            <input class="inp" style="height: 10vh;" type="text" name="" id="" placeholder="Message"><br>
+                            <span><img src="./upload-button.png" height="30" alt=""><p style="display: inline;">Upload Resume</p></span>
+                            <button class="btn-1" style="position: relative; left: 49%;">Submit</button>
+                </div>
+            </div>          
+            <div class="contact-us-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2013134.768805919!2d75.3218067517996!3d9.774203382727487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba86dee9706765f%3A0xbe653c3f3ca26523!2sPalakkad%20Fort!5e0!3m2!1sen!2sin!4v1704128962590!5m2!1sen!2sin"  width="1500" height="450" style="border:0;" allowfullscreen="" loading="first" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>  
+            <div class="position-fixed-details">
+                <span><img src="./navigation.png" height="20" alt=""><p>Click2Clean</p></span>
+                <p style="text-align: left; font-size: 13px; margin-left: 20%;">A Division of Antony waste Handling Cell Ltd.
+                    Registered Office: 1403, 14th Floor, Dev Corpora Building, Opp. Cadbury Company, Eastern Express Highway, Thane – 400 601, Maharashtra, India</p>
+                   <span style="position: relative; top: -4vh; left: 12%;"><img src="./pic-phone.png" style="margin-left: -5%;" height="20" alt=""><p>+91 9876543210</p></span>
+            </div>
+
+        </div>
+
+
+
+        <div class="footer" style="position: relative; top: 10vh;">
+            <div class="footer-col-1">
+                <h5 id="#Footer-head">
+                    Antony Waste Handling Cell Limited
+                </h5>
+                <h5>CIN: L90001MH2001PLC130485</h5>
+                <h6>
+                    Reg. and Corporate Office: 1402-1404, 14th Floor,
+                    Dev Corpora Building, Opp. Cadbury Company,
+                    Eastern Express Highway, Thane (West) – 400 601
+                </h6>
+                <h6><span><img src="./phone-call.png" height="30" alt=""></span>+91-9876543210</h6>
+            </div>
+            <div class="footer-col-2">
+                <a href="#">Privacy Policy</a><br>
+                <a href="#">Cancellation Policy</a><br>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="footer-col-3">
+                <img src="./Google_Play img.svg" height="45vh" style="position: relative; top: 13vh; left: 5vh;" alt="">
+                <img src="./app store.svg" height="45vh"  style="position: relative; top: 13vh; left: 7vh;" alt="">
+            </div>
+            <div class="footer-col-4">
+                <div class="social-icon-footer">
+                    <div class="foot-icon">
+                        <img class="foot-img-new" src="./facebook.png" alt="">
+                    </div>
+                    <div class="foot-icon">
+                        <img class="foot-img-new" src="./twitter.png" alt="">
+                    </div>
+                    <div class="foot-icon">
+                        <img class="foot-img-new" src="./instagram.png" alt="">
+                    </div>
+                    <div class="foot-icon">
+                        <img class="foot-img-new" src="./pinterest.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>

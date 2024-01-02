@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+   font-family: 'Poppins', sans-serif;
+ }
+   .container-fluid
+   {
+       height: 410vh;
+       width: 100%;
+       /* background-color: aqua; */
+   }
+   .nav
+   {
+       height: 13vh;
+       width: 100%;
+       background-color: #fff;
+       display: flex;
+       
+   }
+   .col-logo
+   {
+       height: 15vh;
+       width: 20%;
+   }
+   .logo
+   {
+       height: 10.5vh;
+       width: 100%;
+       margin: 1.5vh;
+       margin-top: 2vh;
+   }
+   .col-navmenu
+   {
+       height: 15vh;
+       width: 48%;
+       /* background-color: blueviolet; */
+       position: relative;
+       left: 32%;
+   }
+   .row-navbar
+   {
+       height: 6vh;
+       width: 100%;
+       /* background-color: rgb(166, 166, 205); */
+   }
+   .row-social
+   {
+       height: 6vh;
+       width: 100%;
+       /* background-color: rgb(20, 109, 109); */
+   }
+   nav
+   {
+       display: flex;
+       justify-content: space-around;
+       position: relative;
+       top: 1vh;
+   }
+   a
+   {
+       text-decoration: none;
+       /* margin: 1vh; */
+       color: #000;
+   }
+   li
+   {
+       list-style: none;
+   }
+   .select
+   {
+       width: 50%;
+   }
+   select
+   {
+       position: relative;
+       top: 2vh;
+       left: 80%;
+       border: 2px solid green;
+       border-radius: 30px;
+   }
+   option
+   {
+       border-radius: 30px;
+   }
+   .social-icons
+   {
+       height: 8vh;
+       width: 20%;
+       /* background-color: #000; */
+       position: relative;
+       top: -2.3vh;
+       left: 78%;
+       display: flex;
+       justify-content: space-around;
+   }
+   .icon-box
+   {
+       height: 4vh;
+       width: 4vh;
+       background-color: #45ba30;
+       border-radius: 50%;
+   }
+   .icon-img
+   {
+       height: 3vh;
+       width: 3vh;
+       position: relative;
+       left: 13%;
+       top: 0.5vh;
+       
+   }#img1
+   {
+       height: 60vh;
+       filter: opacity(0.9);
+   }
+   #text
+   {
+       font-size: 35px;
+       position: relative;
+       top: -40vh;
+       /* left: 10%; */
+       color: white;
+       margin-left: 10%;
+   }
+   
+   @media screen and (max-width:430px){
+            .social-icons
+            {
+                display: none;
+            }
+            .row-navbar
+            {
+                display: none
+            }
+            select
+            {
+                display: none;
+                position: relative;
+                left: 0%;
+            }
+            .nav
+            {
+                height: 8vh;
+                width: 100%;
+                background-color: #fff;
+                display: flex;
+            
+            }
+            .col-logo
+            {
+                 height: 8vh;
+                 width: 40%;
+            }
+            .logo
+            {
+                 height: 4.5vh;
+                 width: 100%;
+                 margin: 1.5vh;
+                 margin-top: 2vh;
+            }
+            .col-navmenu
+            {
+                display: none;
+            }
+            #img1
+           {
+                 height: 50vh;
+                 filter: opacity(0.9);
+           }
+           #text
+             {
+                 font-size: 25px;
+                 position: relative;
+                 top: -30vh;
+                 left: 10%;
+                 color: black;
+            }
+           .fixed-position
+           {
+            display: none;
+           }
+        }
+   </style>
+</head>
+<body>
+
+    <div class="nav">
+        <div class="col-logo">
+            <img class="logo" src="./Project-img/click2clean-logo.png" alt="">
+        </div>
+        <div class="col-navmenu">
+            <div class="row-navbar">
+                <nav>
+                    <li><a href="#abt">About Us</a></li><span>|</span>
+                    <li><a href="#ba">Book Appointment</a></li><span>|</span>
+                    <li><a href="#os">Our Services</a></li><span>|</span>
+                    <li><a href="#ff">Facts & FAQ's</a></li><span>|</span>
+                    <li><a href="#cu">Contact Us</a></li>
+                </nav>
+            </div>
+            <div class="row-social">
+               <div class="select">
+                 <select name="" id="">
+                     <option value=""></option>
+                     <option value="">Mumbai</option>
+                     <option value="">Visakhapatanam</option>
+                     <option value="">Visakhapatanam-neww</option>
+                     <option value="">Hyd</option>
+                     <option value="">Sec</option>
+                     <option value="">Chennai</option>
+                 </select>
+                </div>
+                 <div class="social-icons">
+                    <div class="icon-box">
+                        <img class="icon-img" src="./Project-img/facebook.png" alt="">
+                    </div>
+                    <div class="icon-box">
+                        <img class="icon-img" src="./Project-img/twitter.png" alt="">
+                    </div>
+                    <div  class="icon-box">
+                        <img class="icon-img" src="./Project-img/instagram.png" alt="">
+                    </div>
+                    <div class="icon-box">
+                        <img class="icon-img" src="./Project-img/pinterest.png" alt="">
+                    </div>
+                 </div>
+
+               
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
